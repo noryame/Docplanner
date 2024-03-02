@@ -5,15 +5,7 @@ body{
     margin: 0 auto;
     align-items: center;
 }
-/* .navtools{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 250px;
-}
-#about, #careers , #departments:hover{
-    color:  #00b39b;
-text-decoration: none;
-} */
+ 
 a{
     text-decoration: none;
 }
