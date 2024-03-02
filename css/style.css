@@ -1,0 +1,229 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+ 
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100vw;
+    top: 0;
+}
+header img{
+    width: 35px;
+    height: 35px;
+    margin-left: 220%;
+}
+.navtools{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+#about, #careers , #departments:hover{
+    color:  #00b39b;
+text-decoration: none;
+}
+/* hero section */
+.leadersection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.leadersection img{
+    margin-top: 100px;
+    width: 45%;
+    height: 45px;
+}
+.leadersection h1{
+    color:  #00b39b;
+    font-size: 3rem;
+    padding: 10px;
+}
+.paragraphs{
+    display: flex;
+    padding: 15px;
+}
+.paragraphs p{
+padding: 10px;
+font-size: 1.5rem;
+color:  #747474;
+}
+/* cards */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:turquoise ;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    height: 300px;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color:  white ;
+}
+.cardcontent h2{
+    font-weight: bold ;
+}
+.cardcontent p{
+    font-size:1.8rem ;
+}
+.cardcontent img{
+    width: 25px;
+    height: 25px;
+}
+#card2{
+    background-color: rgb(29, 106, 214);
+}
+#card3{
+    background-color: rgb(24, 23, 23);
+}
+#select1, #select2, #select3{
+    margin: 5px 25px;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+}
+#select1 select{
+    background-color: turquoise;
+    color: white;
+    text-decoration: none;
+    border: 0px;
+  }
+  #select2 select{
+      background-color: rgb(29, 106, 214);
+      color: white;
+      text-decoration: none;
+      border: 0px;
+    }
+  
+  #select3 select{
+      background-color: rgb(24, 23, 23);
+      color: white;
+      text-decoration: none;
+      border: 0px;
+    }
+    /* partners section */
+.section3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.section3 div {
+    width: 60%;
+    display: flex;
+}
+#section3title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+#section3logos {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+/* numbers section */
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+.section4header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 60px;
+}
+.section4header h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+}
+.section4header p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+}
+.section4header img{
+    margin-top: 100px;
+    width: 50%;
+    height: 100px;
+}
+.section4fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.section4fourparts div {
+    height: 500px;
+    width: 250px;
+}
+
+
+.first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.section4fourparts div {
+    height: 500px;
+    width: 250px;
+}
+
+.second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#leader, #patients, #appointments, #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+#appointments {
+    margin-bottom: 20px;
+}
